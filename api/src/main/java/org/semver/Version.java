@@ -73,7 +73,28 @@ public final class Version implements Comparable<Version> {
         this.special = special;
     }
 
+    public int getMajor()
+    {
+        return major;
+    }
+
+    public int getMinor()
+    {
+        return minor;
+    }
+
+    public int getPatch()
+    {
+        return patch;
+    }
+
+    public String getSpecial()
+    {
+        return special;
+    }
+
     /**
+
      *
      * Creates a Version from a string representation. Must match Version#FORMAT.
      *
